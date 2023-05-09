@@ -1,0 +1,16 @@
+{
+  "name": "micro-component-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pnpm -C ./modules/main start & pnpm -C ./modules/app1 start & pnpm -C ./modules/app2 start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@umijs/plugins": "^4.0.67"
+  }
+}
